@@ -162,7 +162,9 @@ body {
 }
 
 .nav-down::after {
-  content: "";
+  content: "Địt mẹ tú";
+  color: #007695;
+  overflow: hidden;
   position: absolute;
   background-color: #14191f;
   width: 300px;
@@ -175,4 +177,12 @@ body {
 
 .nav-down:hover::after {
   height: 100px;
+}
+
+.personalized {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0 30px;
+  color: #007695;
 }
