@@ -165,7 +165,7 @@ body {
 }
 
 .nav-down::after {
-  content: "Địt mẹ tú";
+  content: "";
   color: #007695;
   overflow: hidden;
   position: absolute;
